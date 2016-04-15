@@ -70,15 +70,13 @@ public class Activator implements BundleActivator {
         logServiceTracker.open();
     }
 
-    /** As before, this method stops our component. It also stops (closes) the service
-     * tracker because we don't want our component to be reactivated only because a log
-     * service (re-)appears. */
+    /** As before, this method stops our component, but in a different way. It stops 
+     * (closes) the service tracker (because we don't want our component to be 
+     * reactivated only because a log service (re-)appears). As this causes the
+     * ServiceTracker to call removedService for the tracked service(s), this will
+     * also stop our service. */
     @Override
     public void stop(BundleContext context) throws Exception {
         logServiceTracker.close();
-        if (helloWorld != null) {
-            helloWorld = null;
-            System.out.println("Hello World stopped.");
-        }
     }
 }
