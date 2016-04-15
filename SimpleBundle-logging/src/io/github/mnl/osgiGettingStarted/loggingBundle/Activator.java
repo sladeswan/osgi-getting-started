@@ -27,25 +27,42 @@ public class Activator implements BundleActivator {
                  * available now and that our component can be started. */
                 @Override
                 public LogService addingService(ServiceReference<LogService> reference) {
-                    logService = super.addingService(reference);
-                    System.out.println("Hello World started.");
-                    helloWorld = new HelloWorld();
-                    return logService;
+                    LogService result = super.addingService(reference);
+                    // Update the logService reference to whatever the ServiceTracker
+                    // considers "current" now.
+                    logService = getService();
+                    // The required service has become available, so we should 
+                    // start our service if it hasn't been started yet.
+                    if (helloWorld == null) {
+                        System.out.println("Hello World started.");
+                        helloWorld = new HelloWorld();
+                    }
+                    return result;
                 }
 
                 /** This method is invoked when a service is removed. Since we model
                  * a strong relationship between our component and the log service,
-                 * our component must be stopped, when the log service disappears.
-                 * Note that the service tracker remains open (active). When another
-                 * log service becomes available, our component will be restarted. */
+                 * our component must be stopped when there's no log service left.
+                 * Note that the service tracker remains open (active). When a log
+                 * service becomes available again, our component will be restarted. */
                 @Override
                 public void removedService(ServiceReference<LogService> reference,
                                            LogService service) {
+                    super.removedService(reference, service);
+                    // After removing this service, another version of the service
+                    // may have become the "current version".
+                    LogService nowCurrent = getService();
+                    if (nowCurrent != null) {
+                        logService = nowCurrent;
+                        return;
+                    }
+                    // If no logging service is left, we have to stop our component.
                     if (helloWorld != null) {
                         helloWorld = null;
                         System.out.println("Hello World stopped.");
                     }
-                    super.removedService(reference, service);
+                    // Release any left over reference to the log service.
+                    logService = null;
                 }
             };
         }
