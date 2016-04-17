@@ -2,6 +2,7 @@ package io.github.mnl.osgiGettingStarted.loggingBundle;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
+import org.osgi.framework.Constants;
 import org.osgi.framework.ServiceReference;
 import org.osgi.service.log.LogService;
 import org.osgi.util.tracker.ServiceTracker;
@@ -27,16 +28,53 @@ public class Activator implements BundleActivator {
                  * available now and that our component can be started. */
                 @Override
                 public LogService addingService(ServiceReference<LogService> reference) {
-                    logService = super.addingService(reference);
+                    LogService result = super.addingService(reference);
+                    // If there are several services available, getService() returns the
+                    // preferred one. But we cannot use getService() here because the new
+                    // service hasn't been added to the tracked services yet (we're in 
+                    // the process of adding). We have to decide on our own.
+                    if (isPreferred(reference)) {
+                        logService = result;
+                    }
                     // The required service has become available, so we should 
                     // start our service if it hasn't been started yet.
                     if (helloWorld == null) {
                         System.out.println("Hello World started.");
                         helloWorld = new HelloWorld();
                     }
-                    return logService;
+                    return result;
                 }
 
+                // When having several services, which one should be used? The ServiceTracker
+                // prefers services with higher ranking and, if there is a tie, the service 
+                // with the lowest service id.
+                private boolean isPreferred(ServiceReference<LogService> candidate) {
+                    ServiceReference<LogService> current = getServiceReference();
+                    if (current == null) {
+                        // If this is the first reference use it!
+                        return true;
+                    }
+                    Object property = current.getProperty(Constants.SERVICE_RANKING);
+                    int currentRanking = (property instanceof Integer) 
+                            ? ((Integer) property).intValue() : 0;
+                    property = candidate.getProperty(Constants.SERVICE_RANKING);
+                    int candidateRanking = (property instanceof Integer) 
+                            ? ((Integer) property).intValue() : 0;
+                    if (candidateRanking > currentRanking) {
+                        return true;
+                    }
+                    if (candidateRanking == currentRanking) {
+                        long currentId = ((Long) 
+                                (current.getProperty(Constants.SERVICE_ID))).longValue();
+                        long candidateId = ((Long) 
+                                (candidate.getProperty(Constants.SERVICE_ID))).longValue();
+                        if (candidateId < currentId) {
+                            return true;
+                        }
+                    }
+                    return false;
+                }
+                
                 /** This method is invoked when a service is removed. Since we model
                  * a strong relationship between our component and the log service,
                  * our component must be stopped when there's no log service left.
@@ -47,7 +85,10 @@ public class Activator implements BundleActivator {
                                            LogService service) {
                     super.removedService(reference, service);
                     // After removing this service, another version of the service
-                    // may have become the "current version".
+                    // may have become the "current version". As this is called after
+                    // the service has been removed from the tracker, we can simply
+                    // invoke getService() to get the preferred remaining service object
+                    // (if here is still one left).
                     LogService nowCurrent = getService();
                     if (nowCurrent != null) {
                         logService = nowCurrent;
