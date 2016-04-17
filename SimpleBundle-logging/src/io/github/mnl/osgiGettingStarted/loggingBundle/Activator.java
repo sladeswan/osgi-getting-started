@@ -10,7 +10,7 @@ import org.osgi.util.tracker.ServiceTracker;
 public class Activator implements BundleActivator {
 
     private ServiceTracker<LogService, LogService> logServiceTracker;
-    private LogService logService = null;
+    static public LogService logService = null;
     private HelloWorld helloWorld;
 
     /** Our component isn't started immediately like before. Rather, a service tracker
@@ -41,6 +41,7 @@ public class Activator implements BundleActivator {
                     if (helloWorld == null) {
                         System.out.println("Hello World started.");
                         helloWorld = new HelloWorld();
+                        helloWorld.start();
                     }
                     return result;
                 }
@@ -96,6 +97,11 @@ public class Activator implements BundleActivator {
                     }
                     // If no logging service is left, we have to stop our component.
                     if (helloWorld != null) {
+                        helloWorld.interrupt();
+                        try {
+                            helloWorld.join();
+                        } catch (InterruptedException e) {
+                        }
                         helloWorld = null;
                         System.out.println("Hello World stopped.");
                     }
