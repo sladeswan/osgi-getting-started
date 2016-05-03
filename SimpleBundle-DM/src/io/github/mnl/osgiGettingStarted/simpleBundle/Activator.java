@@ -10,12 +10,13 @@ public class Activator extends DependencyActivatorBase {
 	public void init(BundleContext context, DependencyManager manager)
 			throws Exception {
 		manager.add(
-			createComponent()
-			.setImplementation(HelloWorld.class)
-			.add(
-				createServiceDependency()
-				.setService(LogService.class)
-				.setRequired(true)
+			createComponent() // Create a new service component as instance...
+			.setImplementation(HelloWorld.class) // ... of the HelloWorld class.
+			.add(             // Add to the service component ...
+				createServiceDependency() // ... a dependency on ...
+				.setService(LogService.class) // ... the LogService service ...
+				.setRequired(true) // ... but don't create the instance
+				                   // before the LogService is available.
 			)
 		);
 	}
