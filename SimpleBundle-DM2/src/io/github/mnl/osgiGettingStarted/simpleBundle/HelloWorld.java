@@ -13,7 +13,7 @@ import org.osgi.service.log.LogService;
  * @author mnl
  *
  */
-@Component
+@Component(provides={})
 public class HelloWorld implements Runnable {
 
 	@ServiceDependency(required=true)
