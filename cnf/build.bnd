@@ -27,6 +27,13 @@
 		pretty = true; \
 		local = ${build}/release
 
+-plugin.5.de.mnl.osgi: \
+	aQute.bnd.deployer.repository.FixedIndexedRepo; \
+		name=de.mnl.osgi; \
+		locations=https://raw.githubusercontent.com/mnlipp/de.mnl.osgi/master/cnf/releaserepo/index.xml; \
+		readonly=true
+
+
 -releaserepo: Release
 -baselinerepo: Release
 
