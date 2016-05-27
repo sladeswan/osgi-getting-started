@@ -17,4 +17,4 @@ Private-Package: io.github.mnl.osgiGettingStarted.simpleBundle
 	org.apache.felix.configadmin,\
 	org.apache.felix.metatype,\
 	org.apache.felix.dependencymanager.runtime
--plugin: org.apache.felix.dm.annotation.plugin.bnd.AnnotationPlugin;path:="${workspace}/cnf/localrepo/org.apache.felix.dependencymanager.annotation-4.1.0.jar";log=debug
+-plugin: org.apache.felix.dm.annotation.plugin.bnd.AnnotationPlugin;path:="${workspace}/cnf/local/org.apache.felix.dependencymanager.annotation-4.1.0.jar";log=debug

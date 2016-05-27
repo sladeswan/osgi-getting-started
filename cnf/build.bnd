@@ -1,69 +1,34 @@
-########################
-## BND BUILD SETTINGS ##
-########################
+# Configure Repositories
+-plugin.1.Central: \
+	aQute.bnd.deployer.repository.wrapper.Plugin; \
+		location = "${build}/cache/wrapper"; \
+		reindex = true, \
+	aQute.bnd.jpm.Repository; \
+		includeStaged = true; \
+		name = Central; \
+		location = ~/.bnd/shacache; \
+		index = ${build}/central.json
 
+-plugin.2.Local: \
+	aQute.bnd.deployer.repository.LocalIndexedRepo; \
+		name = Local; \
+		pretty = true; \
+		local = ${build}/local
 
-## Global defaults are loaded from the bnd library (as shown below), place your
-## specific settings here. Additional settings are inherited from ext/*.bnd and
-## they will be overridden by anything you specify in this file.
+-plugin.3.Templates: \
+	aQute.bnd.deployer.repository.LocalIndexedRepo; \
+		name = Templates; \
+		pretty = true; \
+		local = ${build}/templates
 
-## General Options
-#project.dependson:     ${p-dependson;:}
-#project.bootclasspath: ${p-bootclasspath;:}
-#project.buildpath:     ${p-buildpath;:}
-#project.sourcepath:    ${p-sourcepath;:}
-#project.allsourcepath: ${p-allsourcepath;:}
-#project.output:        ${p-output}
-#project.testpath:      ${p-testpath;:}
+-plugin.4.Release: \
+	aQute.bnd.deployer.repository.LocalIndexedRepo; \
+		name = Release; \
+		pretty = true; \
+		local = ${build}/release
 
-#-verbose:              false
-#project:               ${basedir}
-#src:                   src
-#bin:                   bin
-#testsrc:               test
-#testbin:               bin_test
-#test-reports:          test-reports
-#target-dir:            generated
-#target:                ${project}/${target-dir}
-#build:                 ${workspace}/cnf
-#p:                     ${basename;${project}}
-#project.name:          ${p}
-#plugin-dir:            ${build}/plugins
+-releaserepo: Release
+-baselinerepo: Release
 
-## Java Compiler Options
-#java:                  java
-#javac:                 javac
-#javac.source:          1.5
-#javac.target:          1.5
-#javac.profile:
-#javac.debug:           on
-
-## Bnd Options
-#-sources:              true
-#-sourcepath:           ${project}/src
-
-
-## Properties from ext/*.bnd can be referenced in order to extend them. For
-## example, to add one additional plugin to the list defined in
-## ext/repositories.bnd:
-# -plugin: ${ext.repositories.-plugin}, org.example.MyPlugin
-
-
-## To enable baselining, uncomment the following lines:
-# -baseline: *
-
-
-## If you use git, you might want to uncomment the following lines:
-# Git-Descriptor:       ${system-allow-fail;git describe --dirty --always}
-# Git-SHA:              ${system-allow-fail;git rev-list -1 HEAD}
-# -diffignore:          Git-Descriptor,Git-SHA
--plugin: \
-	aQute.bnd.deployer.repository.LocalIndexedRepo;name=Release;local=${workspace}/cnf/releaserepo;pretty=true,\
-	aQute.bnd.deployer.repository.LocalIndexedRepo;name=Local;local=${workspace}/cnf/localrepo;pretty=true,\
-	aQute.bnd.deployer.repository.FixedIndexedRepo;name=Bndtools Hub;locations=https://raw.githubusercontent.com/bndtools/bundle-hub/master/index.xml.gz,\
-	aQute.lib.deployer.FileRepo;name=Non OSGi;location=${workspace}/cnf/nonosgi-repo;latest=false,\
-	aQute.bnd.deployer.repository.FixedIndexedRepo;readonly=true;name=de.mnl.osgi;locations=https://raw.githubusercontent.com/mnlipp/de.mnl.osgi/master/cnf/releaserepo/index.xml
-    
-
-#	aQute.bnd.deployer.repository.FixedIndexedRepo;readonly=true;name=felix.apache.org;locations=http://felix.apache.org/obr/releases.xml,
-	
+# JUnit
+junit: org.apache.servicemix.bundles.junit; version=4.12
