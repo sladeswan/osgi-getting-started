@@ -33,6 +33,10 @@
 		locations=https://raw.githubusercontent.com/mnlipp/de.mnl.osgi/master/cnf/release/index.xml; \
 		readonly=true
 
+-plugin.6.bndtoolshub: \
+	aQute.bnd.deployer.repository.FixedIndexedRepo; \
+		name=Bndtools Hub; \
+		locations=https://raw.githubusercontent.com/bndtools/bundle-hub/master/index.xml.gz
 
 -releaserepo: Release
 -baselinerepo: Release
