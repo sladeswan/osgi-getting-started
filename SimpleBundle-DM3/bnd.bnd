@@ -12,4 +12,6 @@ Private-Package: io.github.mnl.osgiGettingStarted.simpleBundle
 	org.apache.felix.gogo.runtime,\
 	org.apache.felix.gogo.shell,\
 	de.mnl.osgi.log.fwd2jul,\
+	org.apache.felix.configadmin,\
 	org.apache.felix.scr
+	
