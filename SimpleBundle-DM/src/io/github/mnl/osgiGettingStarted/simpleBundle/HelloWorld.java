@@ -18,7 +18,7 @@ public class HelloWorld extends Thread {
         System.out.println("Hello World!");
         while (!isInterrupted()) {
             try {
-                logService.log(LogService.LOG_INFO, "Hello Word sleeping");
+                logService.log(LogService.LOG_WARNING, "Hello Word sleeping");
                 sleep (5000);
             } catch (InterruptedException e) {
                 break;

@@ -25,10 +25,10 @@ public class Activator implements BundleActivator {
                         logService = result;
                     }
                     if (helloWorld == null) {
-                        logService.log(LogService.LOG_INFO, "Hello World starting.");
+                        logService.log(LogService.LOG_WARNING, "Hello World starting.");
                         helloWorld = new HelloWorld();
                         helloWorld.start();
-                        logService.log(LogService.LOG_INFO, "Hello World started.");
+                        logService.log(LogService.LOG_WARNING, "Hello World started.");
                     }
                     return result;
                 }

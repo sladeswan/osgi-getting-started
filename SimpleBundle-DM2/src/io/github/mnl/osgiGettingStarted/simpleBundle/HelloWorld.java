@@ -43,7 +43,7 @@ public class HelloWorld implements Runnable {
         System.out.println("Hello World!");
         while (!runner.isInterrupted()) {
             try {
-                logService.log(LogService.LOG_INFO, "Hello Word sleeping");
+                logService.log(LogService.LOG_WARNING, "Hello Word sleeping");
                 Thread.sleep (5000);
             } catch (InterruptedException e) {
                 break;
