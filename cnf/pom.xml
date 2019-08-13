@@ -95,6 +95,12 @@
 			<version>4.12</version>
 		</dependency>
 
+		<dependency>
+			<groupId>de.dentrassi.osgi</groupId>
+			<artifactId>net.luminis.cmc</artifactId>
+			<version>0.6.0</version>
+		</dependency>
+
 	</dependencies>
 
 </project>
