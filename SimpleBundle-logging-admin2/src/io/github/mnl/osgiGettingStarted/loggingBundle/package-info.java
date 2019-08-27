@@ -3,9 +3,10 @@
  * skinparam componentStyle uml2
  * 
  * package "OSGI Services" as OSGi {
- *     [LogServiceImpl] -up- ConfigurationListener 
- *     [LogServiceImpl] - LogService
- *     [ConfigurationAdminImpl] --> ConfigurationListener : sends info >
+ *     [ConfigurationAdminImpl] -down- ConfigurationAdmin
+ *     [LogServiceImpl] -left- ConfigurationListener 
+ *     [LogServiceImpl] -down- LogService
+ *     [ConfigurationAdminImpl] -right-> ConfigurationListener : sends info >
  * }
  * 
  * package "Simple Bundle" as SimpleBundle {
@@ -13,7 +14,12 @@
  *     [HelloWorldApp] -up- ManagedService
  * }
  * 
- * [ConfigurationAdminImpl] --> ManagedService : "send info"
+ * package "GoGo Shell" {
+ *     [GoGoShell] -up-> ConfigurationAdmin
+ * }
+ * 
+ * [ConfigurationAdminImpl] -right-> ManagedService : "> sends info"
+ *
  * 
  * @enduml
  * 
