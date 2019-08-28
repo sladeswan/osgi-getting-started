@@ -1,13 +1,14 @@
--buildpath: \
-	osgi.core;version=4.3.1,\
-	osgi.cmpn;version=4.3.1,\
-	io.github.mnl.osgiGettingStarted.calculator;version=latest
+Bundle-Version: 1.0.0
 Bundle-Activator: io.github.mnl.osgiGettingStarted.calculator.provider.Activator
 Private-Package: io.github.mnl.osgiGettingStarted.calculator.provider
+
+-buildpath: \
+	osgi.core;version=4.3.1,\
+	io.github.mnl.osgiGettingStarted.calculator;version=latest
+
 -runfw: org.apache.felix.framework;version='[6.0.2,6.1)'
 -runee: JavaSE-1.8
 -runprogramargs: -console
-Bundle-Version: 1.0.0
 -runbundles: \
 	org.apache.felix.gogo.command,\
 	org.apache.felix.gogo.runtime,\
