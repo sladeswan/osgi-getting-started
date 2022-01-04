@@ -4,13 +4,16 @@ apply plugin: 'java'
 sourceSets {
     main {
         java {
-            srcDir 'src'
+            srcDirs =  ['src']
         }
         resources {
-            srcDir 'resources'
+            srcDirs = ['resources']
         }
-        compileClasspath = fileTree('lib').include('*.jar')
     }
+}
+
+dependencies {
+	implementation fileTree('lib').include('*.jar')
 }
 
 jar {

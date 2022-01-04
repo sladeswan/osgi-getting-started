@@ -7,7 +7,7 @@ Private-Package: io.github.mnl.osgiGettingStarted.calculator.provider
 	io.github.mnl.osgiGettingStarted.calculator;version=latest
 
 -runfw: org.apache.felix.framework;version='[6.0.2,6.1)'
--runee: JavaSE-1.8
+-runee: JavaSE-11
 -runprogramargs: -console
 -runbundles: \
 	org.apache.felix.gogo.command,\
