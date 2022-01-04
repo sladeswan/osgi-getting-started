@@ -6,11 +6,6 @@ repositories {
 // Apply the java plugin to add support for Java
 apply plugin: 'java'
 
-// In this section you declare the dependencies for your production and test code
-dependencies {
-    testImplementation 'junit:junit:4.12'
-}
-
 // Configure sensible layout
 sourceSets {
     main {
