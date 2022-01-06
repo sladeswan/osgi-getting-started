@@ -36,5 +36,7 @@
         releaseUrls=https://repo.maven.apache.org/maven2; \
 		query='q=g:%22de.mnl.osgi%22&rows=200'
 		
+javac.source: 11
+javac.target: 11
 
 -releaserepo: Release
