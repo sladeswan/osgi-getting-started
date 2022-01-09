@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="IndexedMaven" increment="1641742930785">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+      <attribute name="osgi.identity" value="org.jboss.logging.jboss-logging"/>
+      <attribute name="documentation" value="http://www.jboss.org"/>
+      <attribute name="description" value="The JBoss Logging Framework"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="3.1.4.GA" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.package">
+      <directive name="uses" value="org.jboss.logmanager,org.apache.log4j,org.slf4j.spi,org.slf4j"/>
+      <attribute name="bundle-symbolic-name" value="org.jboss.logging.jboss-logging"/>
+      <attribute name="bundle-version" value="3.1.4.GA" type="Version"/>
+      <attribute name="version" value="3.1.4.GA" type="Version"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.logging"/>
+      <attribute name="bnd.hashes" value="67115090,-282504061,380476491,636027710,64881737,261804252,67875034,-1977604739,-871831632,975237137,-1494917218,-1734813773,2064138049,951572562,1347702538,1849691931,926309443,73313124,-2013470288,-1449747519,-1992500014,-756382343,76172,2110055447,-1675388953,-1244009655,-963465129,-397449876,77133,76884077,674480151,-928497163,-1045993388,1314582806,-244027405,1871263492" type="List&lt;Long&gt;"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="3.1.4.GA" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="org.jboss.logging.jboss-logging"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="3.1.4.GA" type="Version"/>
+      <attribute name="osgi.wiring.host" value="org.jboss.logging.jboss-logging"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="org.jboss.logging.jboss-logging"/>
+      <attribute name="from" value="org.jboss.logging:jboss-logging:3.1.4.GA"/>
+      <attribute name="version" value="3.1.4.GA" type="Version"/>
+    </capability>
+    <capability namespace="maven.dependencies.info">
+      <attribute name="provided" value="org.slf4j:slf4j-api:1.6.1;org.jboss.logmanager:jboss-logmanager:1.2.0.GA;log4j:log4j:1.2.16"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="57193" type="Long"/>
+      <attribute name="url" value="https://repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.1.4.GA/jboss-logging-3.1.4.GA.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="486A3600EFE286D7E380E570F8E97CACA0B14AD8367C4A38A3261A08DC30DD48"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.apache.log4j)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.apache.log4j"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.jboss.logging)(version&gt;=3.1.0))"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.logging"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(osgi.wiring.package=org.jboss.logmanager)"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.jboss.logmanager"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j)(version&gt;=1.6.0))"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.slf4j"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.slf4j.spi)(version&gt;=1.6.0))"/>
+      <directive name="resolution" value="optional"/>
+      <attribute name="osgi.wiring.package" value="org.slf4j.spi"/>
+    </requirement>
+  </resource>
+</repository>

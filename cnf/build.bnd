@@ -16,26 +16,19 @@
 		local=${workspace}/cnf/release; \
 		pretty=true
 
--plugin.4.Central:  \
-	aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
-		releaseUrls=https://repo.maven.apache.org/maven2; \
-		pom=${.}/pom.xml; \
-		name=Central
+-plugin.4.IndexedMaven: \
+    de.mnl.osgi.bnd.repository.maven.provider.IndexedMavenRepositoryProvider; \
+        name=IndexedMaven; \
+        location=cnf/indexed-maven; \
+        releaseUrls="https://repo1.maven.org/maven2/"; \
+        logIndexing=true
 
--plugin.5.Felix = \
-    aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
-        name=Felix; \
-		readOnly=true; \
-        releaseUrls=https://repo.maven.apache.org/maven2; \
-		query='q=g:%22org.apache.felix%22&rows=200'
-		
--plugin.6.de.mnl.osgi: \
-    aQute.bnd.repository.maven.pom.provider.BndPomRepository; \
-        name=de.mnl.osgi; \
-		readOnly=true; \
-        releaseUrls=https://repo.maven.apache.org/maven2; \
-		query='q=g:%22de.mnl.osgi%22&rows=200'
-		
+-pluginpath.IndexedMaved: \
+    ${workspace}/cnf/cache/de.mnl.osgi.bnd.repository-4.1.0.jar;\
+        url=https://github.com/mnlipp/de.mnl.osgi/raw/master/cnf/release/de.mnl.osgi.bnd.repository/de.mnl.osgi.bnd.repository-4.1.0.jar,\
+    ${workspace}/cnf/cache/biz.aQute.repository-6.0.0.jar;\
+        url=https://repo1.maven.org/maven2/biz/aQute/bnd/biz.aQute.repository/6.0.0/biz.aQute.repository-6.0.0.jar
+
 javac.source: 11
 javac.target: 11
 

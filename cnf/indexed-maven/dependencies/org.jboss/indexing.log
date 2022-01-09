@@ -1,0 +1,3 @@
+org.jboss:jboss-vfs:3.2.11.Final is dependency of org.apache.felix:org.apache.felix.connect:0.2.0, indexing...
+org.jboss:jboss-vfs:3.2.11.Final has dependencies: org.jboss.logging:jboss-logging:3.1.4.GA, org.jboss.logging:jboss-logging-processor:1.2.0.Final, org.jboss.logging:jboss-logging-annotations:1.2.0.Final
+org.jboss:jboss-vfs:3.2.11.Final indexed.
