@@ -1,5 +1,76 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="IndexedMaven" increment="1641755896322">
+<repository xmlns="http://www.osgi.org/xmlns/repository/v1.0.0" name="IndexedMaven" increment="1641763001627">
+  <resource>
+    <capability namespace="osgi.identity">
+      <attribute name="license" value="https://opensource.org/licenses/BSD-3-Clause"/>
+      <attribute name="description" value="Configuration Admin command line client"/>
+      <attribute name="osgi.identity" value="de.dentrassi.osgi.net.luminis.cmc"/>
+      <attribute name="type" value="osgi.bundle"/>
+      <attribute name="version" value="0.5.0" type="Version"/>
+    </capability>
+    <capability namespace="osgi.wiring.bundle">
+      <attribute name="bundle-version" value="0.5.0" type="Version"/>
+      <attribute name="osgi.wiring.bundle" value="de.dentrassi.osgi.net.luminis.cmc"/>
+    </capability>
+    <capability namespace="osgi.wiring.host">
+      <attribute name="bundle-version" value="0.5.0" type="Version"/>
+      <attribute name="osgi.wiring.host" value="de.dentrassi.osgi.net.luminis.cmc"/>
+    </capability>
+    <capability namespace="bnd.info">
+      <attribute name="name" value="de.dentrassi.osgi.net.luminis.cmc"/>
+      <attribute name="from" value="de.dentrassi.osgi:net.luminis.cmc:0.5.0"/>
+      <attribute name="version" value="0.5.0" type="Version"/>
+    </capability>
+    <capability namespace="maven.dependencies.info">
+      <attribute name="provided" value="org.osgi:org.osgi.service.cm:1.5.0;org.apache.felix:org.apache.felix.gogo.runtime:0.10.0;org.osgi:org.osgi.service.component.annotations:1.3.0;org.osgi:org.osgi.core:6.0.0"/>
+    </capability>
+    <capability namespace="osgi.content">
+      <attribute name="size" value="20349" type="Long"/>
+      <attribute name="url" value="https://repo1.maven.org/maven2/de/dentrassi/osgi/net.luminis.cmc/0.5.0/net.luminis.cmc-0.5.0.jar"/>
+      <attribute name="mime" value="application/vnd.osgi.bundle"/>
+      <attribute name="osgi.content" value="FAD38CFFF0E20255B5A1DBE8A1B584182567D0937F3506A2DB7889C7F7A303AA"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <attribute name="objectClass" value="net.luminis.cmc.ClearCommand" type="List&lt;String&gt;"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <attribute name="objectClass" value="net.luminis.cmc.CreateCommand" type="List&lt;String&gt;"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <attribute name="objectClass" value="net.luminis.cmc.CreateFactoryCommand" type="List&lt;String&gt;"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <attribute name="objectClass" value="net.luminis.cmc.DeleteCommand" type="List&lt;String&gt;"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <attribute name="objectClass" value="net.luminis.cmc.GetCommand" type="List&lt;String&gt;"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <attribute name="objectClass" value="net.luminis.cmc.ListCommand" type="List&lt;String&gt;"/>
+    </capability>
+    <capability namespace="osgi.service">
+      <attribute name="objectClass" value="net.luminis.cmc.PutCommand" type="List&lt;String&gt;"/>
+    </capability>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.apache.felix.service.command)(version&gt;=0.10.0)(!(version&gt;=1.0.0))(status=provisional))"/>
+      <attribute name="osgi.wiring.package" value="org.apache.felix.service.command"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.framework)(version&gt;=1.8.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.framework"/>
+    </requirement>
+    <requirement namespace="osgi.wiring.package">
+      <directive name="filter" value="(&amp;(osgi.wiring.package=org.osgi.service.cm)(version&gt;=1.5.0)(!(version&gt;=2.0.0)))"/>
+      <attribute name="osgi.wiring.package" value="org.osgi.service.cm"/>
+    </requirement>
+    <requirement namespace="osgi.ee">
+      <directive name="filter" value="(&amp;(osgi.ee=JavaSE)(version=1.8))"/>
+    </requirement>
+    <requirement namespace="osgi.service">
+      <directive name="filter" value="(objectClass=org.osgi.service.cm.ConfigurationAdmin)"/>
+      <directive name="effective" value="active"/>
+    </requirement>
+  </resource>
   <resource>
     <capability namespace="osgi.identity">
       <attribute name="license" value="https://opensource.org/licenses/BSD-3-Clause"/>
