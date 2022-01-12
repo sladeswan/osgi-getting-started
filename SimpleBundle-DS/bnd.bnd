@@ -4,7 +4,7 @@ Private-Package: io.github.mnl.osgiGettingStarted.simpleBundle
 	osgi.cmpn;version=4.3.1,\
 	osgi.core;version=4.3.1,\
 	osgi.annotation
--runfw: org.apache.felix.framework;version='[6.0.2,6.1)'
+-runfw: org.apache.felix.framework;version='[7.0.3,7.0.3]'
 -runee: JavaSE-11
 -runbundles: \
 	org.apache.felix.log,\
@@ -15,6 +15,6 @@ Private-Package: io.github.mnl.osgiGettingStarted.simpleBundle
 	de.mnl.osgi.osgi2jul,\
 	org.apache.felix.configadmin,\
 	org.apache.felix.scr,\
-	org.osgi.util.promise;version=1.1.1,\
-	org.osgi.util.function;version=1.1.0
+	org.osgi.util.promise;version=1.0.0,\
+	org.osgi.util.function;version=1.0.0
 	
