@@ -1,3 +1,4 @@
 include 'SimplestBundle'
 include 'SimpleBundle'
 include 'SimpleBundle-bnd'
+include 'Greeter'
