@@ -6,6 +6,7 @@ Private-Package: io.github.mnl.osgiGettingStarted.loggingBundle
 Bundle-Activator: io.github.mnl.osgiGettingStarted.loggingBundle.Activator
 -runfw: org.apache.felix.framework;version='[7.0.3,7.1)'
 -runee: JavaSE-11
+-runkeep: true
 -runbundles: \
 	org.apache.felix.log,\
 	org.apache.felix.gogo.command,\
