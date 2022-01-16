@@ -6,7 +6,7 @@ Bundle-Version: 1.0.0
 	io.github.mnl.osgiGettingStarted.calculator;version=latest
 -privatepackage: io.github.mnl.osgiGettingStarted.calculator.ds
 	
--runfw: org.apache.felix.framework;version='[6.0.2,6.1)'
+-runfw: org.apache.felix.framework;version='[7.0.3,7.0.3]'
 -runee: JavaSE-11
 -runbundles: \
 	org.apache.felix.log,\
@@ -17,8 +17,8 @@ Bundle-Version: 1.0.0
 	de.mnl.osgi.osgi2jul,\
 	org.apache.felix.configadmin,\
 	org.apache.felix.scr,\
-	org.osgi.util.promise;version=1.1.1,\
-	org.osgi.util.function;version=1.1.0,\
+	org.osgi.util.promise;version=1.0.0,\
+	org.osgi.util.function;version=1.0.0,\
 	io.github.mnl.osgiGettingStarted.calculator;version=latest,\
 	io.github.mnl.osgiGettingStarted.calculator.ds;version=latest
 	
