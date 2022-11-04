@@ -140,7 +140,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="11878" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/ops4j/base/ops4j-base-net/1.2.3/ops4j-base-net-1.2.3.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/ops4j/base/ops4j-base-net/1.2.3/ops4j-base-net-1.2.3.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="43C303E679032F305246ACB092F13551455460EEC82B24038528FA33C3C92968"/>
     </capability>
