@@ -11,7 +11,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="43305" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/net/sf/kxml/kxml2/2.2.2/kxml2-2.2.2.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="D50C8F9241925CC22FE06A0EF0C23D79F19138243AAA1350DF98752F92399784"/>
     </capability>
