@@ -31,7 +31,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="5980" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/ops4j/base/ops4j-base-lang/1.2.3/ops4j-base-lang-1.2.3.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/ops4j/base/ops4j-base-lang/1.2.3/ops4j-base-lang-1.2.3.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="51B5002CC0D539F455097DE5BDEA619ECCCEAD1AE6DED6D8710147973FD82371"/>
     </capability>
