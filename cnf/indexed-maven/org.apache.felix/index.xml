@@ -53,7 +53,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="66965" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/0.10.0/org.apache.felix.gogo.runtime-0.10.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/0.10.0/org.apache.felix.gogo.runtime-0.10.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="15E94961AE2D0046278686965FE6A34AD43D8D18719F5BC2304E725CDB57A379"/>
     </capability>
@@ -148,7 +148,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="189122" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.0.0/org.apache.felix.gogo.runtime-1.0.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.0.0/org.apache.felix.gogo.runtime-1.0.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="BAAD835C6FA65AFC1695CC92A9E1AFE2967E546CAE94D59FA9E49B557052B2B1"/>
     </capability>
@@ -249,7 +249,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="455578" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.4.0/org.apache.felix.dependencymanager-4.4.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.4.0/org.apache.felix.dependencymanager-4.4.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="D4A8F18693CAAEB43A960DD206B9F593A06F89D2BE6A6F35F9B8BE06869463EE"/>
     </capability>
@@ -333,7 +333,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="470441" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.4.1/org.apache.felix.dependencymanager-4.4.1.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.4.1/org.apache.felix.dependencymanager-4.4.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="1D83527FB0790D990667DC99246ECC014843F2790191444178130D8B5E33B870"/>
     </capability>
@@ -425,7 +425,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="516360" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.5.0/org.apache.felix.dependencymanager-4.5.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.5.0/org.apache.felix.dependencymanager-4.5.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="0BF9F8FE4632736F2DB6F25A47D750B8D2B784708C7D89DB405FA596BB58DE60"/>
     </capability>
@@ -521,7 +521,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="516479" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.5.1/org.apache.felix.dependencymanager-4.5.1.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.5.1/org.apache.felix.dependencymanager-4.5.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="0D2120F7FCDE2DA4E043523A4D9217B182C170A7BDEC883B0440AEB6C38D16A5"/>
     </capability>
@@ -617,7 +617,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="533424" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.6.0/org.apache.felix.dependencymanager-4.6.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.6.0/org.apache.felix.dependencymanager-4.6.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="AB0EB177FE22D0292861134D6818236FC4D4C8B88E916BC4A8DA743906AB5AF3"/>
     </capability>
@@ -713,7 +713,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="533658" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.6.1/org.apache.felix.dependencymanager-4.6.1.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager/4.6.1/org.apache.felix.dependencymanager-4.6.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="0639648E2699874500D3CE509FF1A1610D2D72E18886DC43A4A023721C1AB5F7"/>
     </capability>
@@ -780,7 +780,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="22291" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.log/1.0.0/org.apache.felix.log-1.0.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.log/1.0.0/org.apache.felix.log-1.0.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="C729BE4FC516268C231A94F3C3C77B830F97EA146CDC4FA65FD342F2808199DB"/>
     </capability>
@@ -869,7 +869,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="61379" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.osgi.core/1.2.0/org.osgi.core-1.2.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.osgi.core/1.2.0/org.osgi.core-1.2.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="8F200BAA6D7D3D11FD8B0760A573C4C9038032F0775076AFABCE17464851B8FC"/>
     </capability>
@@ -932,7 +932,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="30450" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/javax.servlet/1.0.0/javax.servlet-1.0.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/javax.servlet/1.0.0/javax.servlet-1.0.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="53BCE4BD2CA76A54B02198854FAA6AB577BCF4C8F5A33C406F6DE78B96861219"/>
     </capability>
@@ -945,7 +945,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="259505" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.osgi.foundation/1.2.0/org.osgi.foundation-1.2.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.osgi.foundation/1.2.0/org.osgi.foundation-1.2.0.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="A4A56A473F4BE54DFBEDD20297E563B0C98234A4BE42B32D8419512168A71EB7"/>
     </capability>
@@ -1178,7 +1178,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="155295" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.osgi.compendium/1.2.0/org.osgi.compendium-1.2.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.osgi.compendium/1.2.0/org.osgi.compendium-1.2.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="370F921C8C65EBAEBD20FA889FF2B1ED559D4F7B24EE866AA6808B8DBC650FF9"/>
     </capability>
@@ -1218,7 +1218,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="22243" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.log/1.0.1/org.apache.felix.log-1.0.1.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.log/1.0.1/org.apache.felix.log-1.0.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="99E720ADE46420B2E4C554F6E90823E61D92730E7BD8325337B7B6B228A7D290"/>
     </capability>
@@ -1281,7 +1281,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="76651" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.metatype/1.2.0/org.apache.felix.metatype-1.2.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.metatype/1.2.0/org.apache.felix.metatype-1.2.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="ECC1F1B40EC884490C0C0A536B299D7DD5CEB26D9B2E6279E99E172BF794AF10"/>
     </capability>
@@ -1362,7 +1362,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="53514" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.log/1.2.0/org.apache.felix.log-1.2.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.log/1.2.0/org.apache.felix.log-1.2.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="0B022268195C56A267AF87A9101659E2A2B65F8EEB34D3547188EB3F515AD5F7"/>
     </capability>
@@ -1450,7 +1450,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="76699" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.metatype/1.2.2/org.apache.felix.metatype-1.2.2.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.metatype/1.2.2/org.apache.felix.metatype-1.2.2.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="AF6C09A73890ACD36F7B192F7AE372C18DB9885E77BB402E889101E2B19E7A2D"/>
     </capability>
@@ -1531,7 +1531,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="53648" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.log/1.2.2/org.apache.felix.log-1.2.2.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.log/1.2.2/org.apache.felix.log-1.2.2.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="A6D6A6B109B9D107373FBFE7E92AE6B362F7D8811006D832C48663ED05F877A9"/>
     </capability>
@@ -1651,7 +1651,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="203477" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.1.4/org.apache.felix.gogo.runtime-1.1.4.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.runtime/1.1.4/org.apache.felix.gogo.runtime-1.1.4.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="A57870F580F3B6BF30E42803260F39A50A80D139B0A8FD180793A6C36FFAD868"/>
     </capability>
@@ -1727,7 +1727,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="59076" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.4/org.apache.felix.gogo.shell-1.1.4.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.shell/1.1.4/org.apache.felix.gogo.shell-1.1.4.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="68EA9D25CC8184CD39C34EBCF84E62C57377AE24B0923B75C2B12216492B53A1"/>
     </capability>
@@ -1799,7 +1799,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="77017" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.metatype/1.2.4/org.apache.felix.metatype-1.2.4.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.metatype/1.2.4/org.apache.felix.metatype-1.2.4.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="EF26BF93016F46223470AB566182BE5A9FE34C6843EFE92945A6592DA7BC6386"/>
     </capability>
@@ -1880,7 +1880,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="53175" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.log/1.2.4/org.apache.felix.log-1.2.4.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.log/1.2.4/org.apache.felix.log-1.2.4.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="00C61AAE47C2F5495FADCC5BFDEA66CAD5296F5BF22353B8753806DE09EDD9DD"/>
     </capability>
@@ -1967,7 +1967,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="53445" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.log/1.2.6/org.apache.felix.log-1.2.6.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.log/1.2.6/org.apache.felix.log-1.2.6.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="84D13C6173933C366F5395231D68542F433B3044B7C53945489849DAA2C7B73D"/>
     </capability>
@@ -2210,7 +2210,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="765081" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.framework/7.0.0/org.apache.felix.framework-7.0.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/7.0.0/org.apache.felix.framework-7.0.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="CEC62C3EB816F40FAD057BB2692E0CA2BD645EF36A71060E8F6334D2B42F5C06"/>
     </capability>
@@ -2267,7 +2267,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="202379" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.resolver/2.0.2/org.apache.felix.resolver-2.0.2.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.resolver/2.0.2/org.apache.felix.resolver-2.0.2.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="82B05E67F4D7816F5BAF080613CC5D668307AA5AABEB03166D39F6181E8CCC81"/>
     </capability>
@@ -2490,7 +2490,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="773772" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.framework/7.0.1/org.apache.felix.framework-7.0.1.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/7.0.1/org.apache.felix.framework-7.0.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="27828C3B2A482749E6DAEFB7874AD3DC9042625C09E8DFCA644CFE5130A139CA"/>
     </capability>
@@ -2547,7 +2547,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="202294" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.resolver/2.0.4/org.apache.felix.resolver-2.0.4.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.resolver/2.0.4/org.apache.felix.resolver-2.0.4.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="8D0C0F252D5234F961DC4A9F4CD5F894E518D26045D7B13EEA71D63CAD97F9FE"/>
     </capability>
@@ -2770,7 +2770,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="773807" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.framework/7.0.3/org.apache.felix.framework-7.0.3.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.framework/7.0.3/org.apache.felix.framework-7.0.3.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="AFD53FB601DA924552129A965E3C2FBE1A17A3824B77C7F74B318606EF9A174D"/>
     </capability>
@@ -2866,7 +2866,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="412878" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.0/org.apache.felix.scr-2.1.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.0/org.apache.felix.scr-2.1.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="11CF9ADD27A0C1F0C4DA9DE28091E7FD47407709026B1C8078B851E07EC91FFE"/>
     </capability>
@@ -3035,7 +3035,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="60929" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.osgi.core/1.0.0/org.osgi.core-1.0.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.osgi.core/1.0.0/org.osgi.core-1.0.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="4C70F6804E8D428ED143769321713AE9235E2DA644F0BAD913E37DC22D6E0E2B"/>
     </capability>
@@ -3099,7 +3099,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="50982" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.shell/1.0.0/org.apache.felix.shell-1.0.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.shell/1.0.0/org.apache.felix.shell-1.0.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="DEBF48B30B70CB44B974C23A9B142539217BA474EBC3D64B25586FD6FBF8C59A"/>
     </capability>
@@ -3171,7 +3171,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="145705" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager.annotation/5.0.0/org.apache.felix.dependencymanager.annotation-5.0.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager.annotation/5.0.0/org.apache.felix.dependencymanager.annotation-5.0.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="8C3258A6AB4D97A7051518DC99B47BECC6DB668C231F0FEED52D3FD6DEBEFED2"/>
     </capability>
@@ -3280,7 +3280,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="412191" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.2/org.apache.felix.scr-2.1.2.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.2/org.apache.felix.scr-2.1.2.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="108FED0243673A7A2BFAB3A0CF72DF03A10AA4CB14E2AE4B2EE6A292D551547C"/>
     </capability>
@@ -3410,7 +3410,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="145800" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager.annotation/5.0.1/org.apache.felix.dependencymanager.annotation-5.0.1.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager.annotation/5.0.1/org.apache.felix.dependencymanager.annotation-5.0.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="7D50C8FBC7DC79DE142873115DDE8CDA1D598BAB2579274A9A58E2C58308A09A"/>
     </capability>
@@ -3469,7 +3469,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="145952" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager.annotation/5.0.2/org.apache.felix.dependencymanager.annotation-5.0.2.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager.annotation/5.0.2/org.apache.felix.dependencymanager.annotation-5.0.2.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="44BF220B2F63410DAA98BCA946D94345FC94D9EE9BC516D614C67BFA79D99F17"/>
     </capability>
@@ -3578,7 +3578,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="412306" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.6/org.apache.felix.scr-2.1.6.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.6/org.apache.felix.scr-2.1.6.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="BCB98B03C5E2AC3F8FC60C8DF3EF1145F631445EE07C0057AE8AE04520F16609"/>
     </capability>
@@ -3758,7 +3758,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="415592" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.8/org.apache.felix.scr-2.1.8.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.8/org.apache.felix.scr-2.1.8.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="9DD5BD2A687E68C54F9C8BA3248CE46D60292C5168BA587F4ECFCB4EF75DEFFF"/>
     </capability>
@@ -3938,7 +3938,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="417110" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.10/org.apache.felix.scr-2.1.10.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.10/org.apache.felix.scr-2.1.10.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="01B4F6C749D84728BEC516DB8CEFB74DC449E3787176FFE8B17DD2BB3D2751A3"/>
     </capability>
@@ -4118,7 +4118,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="417503" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.12/org.apache.felix.scr-2.1.12.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.12/org.apache.felix.scr-2.1.12.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="3F9E8BC14936D44DB833DCC1E462DAC6BBAB30B88C89EDE69A5255F658E82117"/>
     </capability>
@@ -4298,7 +4298,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="417926" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.14/org.apache.felix.scr-2.1.14.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.14/org.apache.felix.scr-2.1.14.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="647A3F0B260808DA25B97BFF82E9E7438165D383F765E99DB1A2FAA6D70399CB"/>
     </capability>
@@ -4447,7 +4447,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="151781" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.0/org.apache.felix.configadmin-1.9.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.0/org.apache.felix.configadmin-1.9.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="B589A41AD97AFC794F64096896B30B23A6BAE7C151DDADF414CA1ACBF41AC6C4"/>
     </capability>
@@ -4553,7 +4553,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="151827" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.2/org.apache.felix.configadmin-1.9.2.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.2/org.apache.felix.configadmin-1.9.2.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="10DFE2A6FD571DD02A30B6D215844F59DC3DD3B970671D2938167E2BFB2E0B54"/>
     </capability>
@@ -4659,7 +4659,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="151912" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.4/org.apache.felix.configadmin-1.9.4.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.4/org.apache.felix.configadmin-1.9.4.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="CA2EAEBEF5977BDB482E2D870CEE3001651BD03A1AEBDFFE4E666E6B48D73211"/>
     </capability>
@@ -4765,7 +4765,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="154250" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.6/org.apache.felix.configadmin-1.9.6.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.6/org.apache.felix.configadmin-1.9.6.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="AA2DE2F40E6B2B762B76B5065B3833F260106715D31A7E48EAE780F1CE7E4FBF"/>
     </capability>
@@ -4888,7 +4888,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="402194" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.16/org.apache.felix.scr-2.1.16.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.16/org.apache.felix.scr-2.1.16.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="4DCEBD77872D1DF5AD2389F64EC2A0882F6E845C8C3497832356CF04255581BE"/>
     </capability>
@@ -5028,7 +5028,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="155011" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.8/org.apache.felix.configadmin-1.9.8.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.8/org.apache.felix.configadmin-1.9.8.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="713054FD116550D0D91A25FBB45EAEB2F79987590EE8F4FAE70DB2B81C47242A"/>
     </capability>
@@ -5134,7 +5134,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="155630" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.10/org.apache.felix.configadmin-1.9.10.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.10/org.apache.felix.configadmin-1.9.10.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="77B03B938E796C0512D9AD89ACF287CCE09C14A159CA05B6CB74DDA17E7AB3FA"/>
     </capability>
@@ -5240,7 +5240,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="155618" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.12/org.apache.felix.configadmin-1.9.12.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.12/org.apache.felix.configadmin-1.9.12.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="B52EEC7BF83677F69924AA8CA49460976D54EE5526B4FB22A1EA5A699DD848EE"/>
     </capability>
@@ -5363,7 +5363,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="399460" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.18/org.apache.felix.scr-2.1.18.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.18/org.apache.felix.scr-2.1.18.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="EE75A0459A1423D6A0E4C5C06989843B7A3F0FE1E083774A75070AE4980C295B"/>
     </capability>
@@ -5515,7 +5515,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="155889" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.14/org.apache.felix.configadmin-1.9.14.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.14/org.apache.felix.configadmin-1.9.14.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="7ABF40B2D9FD0D759B513E91BB21138D07CA20F90ECE1BAFDC3FAA373F858AB3"/>
     </capability>
@@ -5638,7 +5638,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="399473" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.20/org.apache.felix.scr-2.1.20.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.20/org.apache.felix.scr-2.1.20.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="4E35B3A8E7B65C7B46DAFC3BD9C6C384B95BA40B1C664ABBF293272F6213B21D"/>
     </capability>
@@ -5790,7 +5790,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="168087" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.16/org.apache.felix.configadmin-1.9.16.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.16/org.apache.felix.configadmin-1.9.16.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="70EC1461204B72B7E012A2E099741B213FC296C6BC22A1D41E54A7FC1478DE26"/>
     </capability>
@@ -5896,7 +5896,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="168093" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.18/org.apache.felix.configadmin-1.9.18.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.18/org.apache.felix.configadmin-1.9.18.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="C2DDF2D49E91328C9EEC7C73688A64D2C08077D9DD0F9FD5A5407B59B0A480D5"/>
     </capability>
@@ -6019,7 +6019,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="406442" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.22/org.apache.felix.scr-2.1.22.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.22/org.apache.felix.scr-2.1.22.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="165A28F1B014D0992FA35D38BC665A04D217F747F6F018DF215491BE33B50A13"/>
     </capability>
@@ -6171,7 +6171,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="168288" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.20/org.apache.felix.configadmin-1.9.20.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.20/org.apache.felix.configadmin-1.9.20.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="7C15DAF47101854840BDEEBD4698CDD2D3E8C31F88D26008E2C7E183DD4C2C9C"/>
     </capability>
@@ -6294,7 +6294,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="406917" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.24/org.apache.felix.scr-2.1.24.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.24/org.apache.felix.scr-2.1.24.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="F95BB833919F9A79146FD5CD5C28E60C708EE2762BA17019A9C84501A65B6B0F"/>
     </capability>
@@ -6463,7 +6463,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="407616" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.26/org.apache.felix.scr-2.1.26.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.26/org.apache.felix.scr-2.1.26.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="CED064F1255A681AA1833A33969B88DF116C89404CCB90C5B606838FB9597204"/>
     </capability>
@@ -6615,7 +6615,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="168301" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.22/org.apache.felix.configadmin-1.9.22.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.configadmin/1.9.22/org.apache.felix.configadmin-1.9.22.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="B349E16D60DA66B6DA70AB3E056677A9D6A0B8953DF84ECD63B10AA5EF3C5865"/>
     </capability>
@@ -6738,7 +6738,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="408393" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.28/org.apache.felix.scr-2.1.28.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.28/org.apache.felix.scr-2.1.28.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="648B592575695F380993F2E19C61C9BB7D8D9B95A27DD04DBDB01ED96A6B9F4F"/>
     </capability>
@@ -6907,7 +6907,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="408361" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.30/org.apache.felix.scr-2.1.30.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.1.30/org.apache.felix.scr-2.1.30.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="9E0AC84A96C0CB53FBF62C1C3B1E2310EEBCCA9EC62BCD516F68658B7C15CF72"/>
     </capability>
@@ -7076,7 +7076,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="411935" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.0-RC1/org.apache.felix.scr-2.2.0-RC1.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.scr/2.2.0-RC1/org.apache.felix.scr-2.2.0-RC1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="C3C2C452A678B157A5178F6C18DB4F8F3774328235D65CEA5F34B840BB45C499"/>
     </capability>
@@ -7208,7 +7208,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="135491" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.dependencymanager.runtime/4.0.8/org.apache.felix.dependencymanager.runtime-4.0.8.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.dependencymanager.runtime/4.0.8/org.apache.felix.dependencymanager.runtime-4.0.8.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="83B178BCC01B9FE703AAD909007E839E0E707AF83E1A4265DBF2A0A76D2A69C8"/>
     </capability>
@@ -7285,7 +7285,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="39691" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/apache/felix/org.apache.felix.gogo.command/1.1.2/org.apache.felix.gogo.command-1.1.2.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/apache/felix/org.apache.felix.gogo.command/1.1.2/org.apache.felix.gogo.command-1.1.2.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="CC9CB7205FF0BE5149BC3B5355CE0E5BA4AB182B5BB8A1E96B91252F31A3D324"/>
     </capability>
