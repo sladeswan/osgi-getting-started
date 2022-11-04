@@ -88,7 +88,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="8028" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/ops4j/base/ops4j-base-monitors/1.2.3/ops4j-base-monitors-1.2.3.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/ops4j/base/ops4j-base-monitors/1.2.3/ops4j-base-monitors-1.2.3.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="D34FD638F584524615FA1FF53FD6CA51BC58A0AB05FFE667A34F43AE759E331D"/>
     </capability>
