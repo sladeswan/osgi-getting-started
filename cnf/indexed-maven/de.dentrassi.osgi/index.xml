@@ -26,7 +26,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="20349" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/de/dentrassi/osgi/net.luminis.cmc/0.5.0/net.luminis.cmc-0.5.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/de/dentrassi/osgi/net.luminis.cmc/0.5.0/net.luminis.cmc-0.5.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="FAD38CFFF0E20255B5A1DBE8A1B584182567D0937F3506A2DB7889C7F7A303AA"/>
     </capability>
