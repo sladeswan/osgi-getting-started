@@ -195,7 +195,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="349985" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/osgi/org.osgi.core/4.3.1/org.osgi.core-4.3.1.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="10DAD99322B2081015749E2D21538A4A9BC4CB3699D3B7B41CE452A544B09ABE"/>
     </capability>
