@@ -37,7 +37,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="51182" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/de/mnl/osgi/de.mnl.osgi.lf4osgi/2.1.0/de.mnl.osgi.lf4osgi-2.1.0.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/de/mnl/osgi/de.mnl.osgi.lf4osgi/2.1.0/de.mnl.osgi.lf4osgi-2.1.0.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="1279B777E393B6565FE43ADFE40447FD832B0475FEB24EB692BF744F7B8ED4F3"/>
     </capability>
