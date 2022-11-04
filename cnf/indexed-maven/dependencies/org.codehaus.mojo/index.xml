@@ -8,7 +8,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="3409" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.9/animal-sniffer-annotations-1.9.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/codehaus/mojo/animal-sniffer-annotations/1.9/animal-sniffer-annotations-1.9.jar"/>
       <attribute name="mime" value="application/java-archive"/>
       <attribute name="osgi.content" value="CD96FEEB47F34B2559704715DB7B179A03A3721F9DC4092C345C718E29B42DE4"/>
     </capability>
