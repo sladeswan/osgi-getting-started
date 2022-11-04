@@ -50,7 +50,7 @@
     </capability>
     <capability namespace="osgi.content">
       <attribute name="size" value="44213" type="Long"/>
-      <attribute name="url" value="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar"/>
+      <attribute name="url" value="https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.8.0-beta4/slf4j-api-1.8.0-beta4.jar"/>
       <attribute name="mime" value="application/vnd.osgi.bundle"/>
       <attribute name="osgi.content" value="602B712329C84B4A83C40464F4FDFD0FE4238C53EF397139A867064739DBF4E0"/>
     </capability>
